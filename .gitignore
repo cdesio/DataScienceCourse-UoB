@@ -1,0 +1,26 @@
+# macOS / editor noise
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local recordings are kept in the repo folder but not committed by default.
+**/recordings/*
+!**/recordings/.gitkeep
+
+# Large downloaded/generated data and model outputs
+**/cifar-10-batches-py/
+**/cifar-10-python.tar.gz
+*.pth
+
+# Common generated outputs
+*.log
+*.tmp

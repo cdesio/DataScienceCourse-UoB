@@ -1,0 +1,2 @@
+This is a file containing words. We have to count how many times a word appears in the file.
+Therefore we are going to add repetitions, to check if the function that counts the occurrences works.

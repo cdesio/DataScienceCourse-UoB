@@ -1,0 +1,5 @@
+apple: 4
+banana: 1
+milk: 1
+
+Total: $3.80
