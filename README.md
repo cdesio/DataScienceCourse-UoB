@@ -5,7 +5,7 @@ Teaching material for two University of Bristol data science courses.
 - **Beginners Data Science Course** introduces Python programming, Jupyter notebooks, NumPy, pandas, visualisation, and first machine learning ideas.
 - **Advanced Machine Learning** covers statistical foundations, model fitting and validation, supervised and unsupervised learning, neural networks, convolutional networks, tensors, and PyTorch.
 
-The material was designed for live coding sessions. Most sessions include blank notebooks for learners, completed notebooks in `solutions/`, and local recordings in `recordings/`.
+The material was designed for live coding sessions. Most sessions include blank notebooks for learners and completed notebooks in `solutions/`. Local recordings are organised separately by course in `recordings/`.
 
 ## Repository Layout
 
@@ -14,7 +14,6 @@ beginners/
   Session_*/
     *.ipynb
     solutions/
-    recordings/
     data/
     figures/
     utilities/
@@ -23,10 +22,13 @@ advanced-ml/
   Session*/
     *.ipynb
     solutions/
-    recordings/
     data/
     figures/
     utilities/
+
+recordings/
+  beginners/
+  advanced-ml/
 ```
 
 Not every session uses every folder. The session folder itself remains the main working location so notebook paths stay easy to follow.
@@ -34,7 +36,7 @@ Not every session uses every folder. The session folder itself remains the main 
 ## Folder Conventions
 
 - `solutions/`: completed versions of notebooks and exercise workbooks.
-- `recordings/`: local video recordings for the session.
+- `recordings/`: local video recordings, split by course. Video files are ignored by Git; each course recording folder has a README for OneDrive links.
 - `data/`: small datasets used directly by notebooks.
 - `figures/`: images, diagrams, and other visual teaching material.
 - `utilities/`: helper Python modules and reusable support code.

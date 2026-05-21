@@ -13,8 +13,10 @@ venv/
 env/
 
 # Local recordings are kept in the repo folder but not committed by default.
-**/recordings/*
-!**/recordings/.gitkeep
+recordings/**/*.mp4
+recordings/**/*.mov
+**/recordings/**/*.mp4
+**/recordings/**/*.mov
 
 # Large downloaded/generated data and model outputs
 **/cifar-10-batches-py/
